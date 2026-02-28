@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide active">
+                <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=80" alt="Robot Fun">
+                <div class="caption">Me: Centering a Div for 3 hours 🤡</div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80" alt="Retro Tech">
+                <div class="caption">It works on my machine! 🤷‍♂️</div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80" alt="Laptop Code">
+                <div class="caption">Fixed 1 bug, created 10 more 🐛</div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80" alt="Coffee">
+                <div class="caption">Powered by Caffeine & StackOverflow ☕</div>
+            </div>
+        </div>
+
+        <button class="prev" id="prevBtn" aria-label="Previous Slide">&#10094;</button>
+        <button class="next" id="nextBtn" aria-label="Next Slide">&#10095;</button>
+
+        <div class="dots-container" id="dotsContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
